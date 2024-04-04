@@ -11,12 +11,12 @@
     </parent>
 
     <groupId>com.swftwheelshub</groupId>
-    <artifactId>swift-wheels-hub-parent</artifactId>
+    <artifactId>swift-wheels-hub-reactive-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Swift Wheels Hub Parent</name>
-    <description>Parent for Swift Wheels Hub Microservices</description>
+    <name>Swift Wheels Hub Reactive Parent</name>
+    <description>Parent for Swift Wheels Hub Reactive Microservices</description>
 
     <properties>
         <java.version>21</java.version>
@@ -31,16 +31,10 @@
 
         <mapstruct.version>1.5.5.Final</mapstruct.version>
 
-        <liquibase.version>4.27.0</liquibase.version>
-
-        <debezium.version>2.5.4.Final</debezium.version>
-
         <poi.version>5.2.5</poi.version>
 
         <keycloak-client.version>23.0.4</keycloak-client.version>
         <resteasy-client.version>6.2.8.Final</resteasy-client.version>
-
-        <springdoc-openapi-starter-webmvc-ui.version>2.4.0</springdoc-openapi-starter-webmvc-ui.version>
 
         <mustache.version>0.9.11</mustache.version>
 
@@ -67,14 +61,6 @@
             </dependency>
             <!-- END: Mapstruct dependency -->
 
-            <!-- Database migration dependencies -->
-            <dependency>
-                <groupId>org.liquibase</groupId>
-                <artifactId>liquibase-maven-plugin</artifactId>
-                <version>${liquibase.version}</version>
-            </dependency>
-            <!-- END: Database migration dependencies -->
-
             <!-- Apache POI dependencies -->
             <dependency>
                 <groupId>org.apache.poi</groupId>
@@ -88,26 +74,6 @@
                 <version>${poi.version}</version>
             </dependency>
             <!-- END: Apache POI dependencies -->
-
-            <!-- Debezium dependencies -->
-            <dependency>
-                <groupId>io.debezium</groupId>
-                <artifactId>debezium-api</artifactId>
-                <version>${debezium.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.debezium</groupId>
-                <artifactId>debezium-embedded</artifactId>
-                <version>${debezium.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.debezium</groupId>
-                <artifactId>debezium-connector-postgres</artifactId>
-                <version>${debezium.version}</version>
-            </dependency>
-            <!-- END: Debezium dependencies -->
 
             <!-- Keycloak integration dependencies -->
             <dependency>
@@ -242,7 +208,9 @@
     </repositories>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/georgeniculae/swift-wheels-hub-parent</developerConnection>
+        <developerConnection>
+            scm:git:https://github.com/georgeniculae/swift-wheels-hub-reactive-parent
+        </developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -250,7 +218,7 @@
         <repository>
             <id>github</id>
             <name>swift-wheels-hub-parent</name>
-            <url>https://maven.pkg.github.com/georgeniculae/swift-wheels-hub-parent</url>
+            <url>https://maven.pkg.github.com/georgeniculae/swift-wheels-hub-reactive-parent</url>
         </repository>
     </distributionManagement>
 
