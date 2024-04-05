@@ -134,7 +134,7 @@
             <!-- Atlassian Request Validator dependency -->
             <dependency>
                 <groupId>com.atlassian.oai</groupId>
-                <artifactId>swagger-request-validator-core</artifactId>
+                <artifactId>swagger-request-validator-spring-web-client</artifactId>
                 <version>${swagger-request-validator.version}</version>
             </dependency>
             <!-- END: Atlassian Request Validator dependency -->
