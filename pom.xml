@@ -38,7 +38,13 @@
 
         <mustache.version>0.9.11</mustache.version>
 
+        <springdoc-openapi.version>2.4.0</springdoc-openapi.version>
+
+        <mongock.version>5.4.0</mongock.version>
+
         <swagger-request-validator.version>2.40.0</swagger-request-validator.version>
+
+        <blockhound.version>1.0.8.RELEASE</blockhound.version>
     </properties>
 
     <dependencyManagement>
@@ -98,8 +104,8 @@
             <!-- Swagger documentation dependency -->
             <dependency>
                 <groupId>org.springdoc</groupId>
-                <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-                <version>${springdoc-openapi-starter-webmvc-ui.version}</version>
+                <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
+                <version>${springdoc-openapi.version}</version>
             </dependency>
             <!-- END: Swagger documentation dependency -->
 
@@ -111,6 +117,20 @@
             </dependency>
             <!-- END: Mustache dependency -->
 
+            <!-- Mongock dependencies -->
+            <dependency>
+                <groupId>io.mongock</groupId>
+                <artifactId>mongodb-reactive-driver</artifactId>
+                <version>${mongock.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.mongock.professional</groupId>
+                <artifactId>mongock-springboot</artifactId>
+                <version>${mongock.version}</version>
+            </dependency>
+            <!-- END: Mongock dependencies -->
+
             <!-- Atlassian Request Validator dependency -->
             <dependency>
                 <groupId>com.atlassian.oai</groupId>
@@ -118,6 +138,14 @@
                 <version>${swagger-request-validator.version}</version>
             </dependency>
             <!-- END: Atlassian Request Validator dependency -->
+
+            <!-- Blockhound dependency -->
+            <dependency>
+                <groupId>io.projectreactor.tools</groupId>
+                <artifactId>blockhound</artifactId>
+                <version>${blockhound.version}</version>
+            </dependency>
+            <!-- END: Blockhound dependency -->
         </dependencies>
     </dependencyManagement>
 
