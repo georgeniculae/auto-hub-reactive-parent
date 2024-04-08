@@ -38,7 +38,7 @@
 
         <mustache.version>0.9.11</mustache.version>
 
-        <springdoc-openapi.version>2.4.0</springdoc-openapi.version>
+        <springdoc-openapi.version>2.5.0</springdoc-openapi.version>
 
         <mongock.version>5.4.0</mongock.version>
 
