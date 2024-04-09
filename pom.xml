@@ -67,20 +67,6 @@
             </dependency>
             <!-- END: Mapstruct dependency -->
 
-            <!-- Apache POI dependencies -->
-            <dependency>
-                <groupId>org.apache.poi</groupId>
-                <artifactId>poi</artifactId>
-                <version>${poi.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.poi</groupId>
-                <artifactId>poi-ooxml</artifactId>
-                <version>${poi.version}</version>
-            </dependency>
-            <!-- END: Apache POI dependencies -->
-
             <!-- Keycloak integration dependencies -->
             <dependency>
                 <groupId>org.keycloak</groupId>
@@ -100,6 +86,20 @@
                 <version>${resteasy-client.version}</version>
             </dependency>
             <!-- END: Keycloak integration dependencies -->
+
+            <!-- Apache POI dependencies -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${poi.version}</version>
+            </dependency>
+            <!-- END: Apache POI dependencies -->
 
             <!-- Swagger documentation dependency -->
             <dependency>
