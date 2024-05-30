@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.5</version>
+        <version>3.3.0</version>
         <relativePath/>
     </parent>
 
@@ -26,21 +26,21 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <spring-boot.version>3.2.5</spring-boot.version>
-        <spring-cloud-dependencies.version>2023.0.0</spring-cloud-dependencies.version>
+        <spring-boot.version>3.3.0</spring-boot.version>
+        <spring-cloud-dependencies.version>2023.0.2</spring-cloud-dependencies.version>
 
         <mapstruct.version>1.5.5.Final</mapstruct.version>
 
         <poi.version>5.2.5</poi.version>
 
         <keycloak-client.version>23.0.4</keycloak-client.version>
-        <resteasy-client.version>6.2.8.Final</resteasy-client.version>
+        <resteasy-client.version>6.2.9.Final</resteasy-client.version>
 
-        <mustache.version>0.9.11</mustache.version>
+        <mustache.version>0.9.19</mustache.version>
 
         <springdoc-openapi.version>2.5.0</springdoc-openapi.version>
 
-        <mongock.version>5.4.0</mongock.version>
+        <mongock.version>5.4.2</mongock.version>
 
         <swagger-request-validator.version>2.40.0</swagger-request-validator.version>
 
