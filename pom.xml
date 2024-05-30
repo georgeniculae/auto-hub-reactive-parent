@@ -36,7 +36,7 @@
         <keycloak-client.version>23.0.4</keycloak-client.version>
         <resteasy-client.version>6.2.9.Final</resteasy-client.version>
 
-        <mustache.version>0.9.19</mustache.version>
+        <mustache.version>0.9.13</mustache.version>
 
         <springdoc-openapi.version>2.5.0</springdoc-openapi.version>
 
