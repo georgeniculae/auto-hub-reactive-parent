@@ -31,7 +31,7 @@
 
         <mapstruct.version>1.5.5.Final</mapstruct.version>
 
-        <poi.version>5.2.5</poi.version>
+        <poi.version>5.3.0</poi.version>
 
         <keycloak-client.version>23.0.4</keycloak-client.version>
         <resteasy-client.version>6.2.9.Final</resteasy-client.version>
