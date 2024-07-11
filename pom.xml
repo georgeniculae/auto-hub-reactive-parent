@@ -44,6 +44,8 @@
 
         <swagger-request-validator.version>2.40.0</swagger-request-validator.version>
 
+        <glowroot-agent.version>0.13.6</glowroot-agent.version>
+
         <blockhound.version>1.0.9.RELEASE</blockhound.version>
     </properties>
 
@@ -148,6 +150,14 @@
                 <version>${swagger-request-validator.version}</version>
             </dependency>
             <!-- END: Atlassian Request Validator dependency -->
+
+            <!-- Glowroot dependency -->
+            <dependency>
+                <groupId>org.glowroot</groupId>
+                <artifactId>glowroot-agent-api</artifactId>
+                <version>${glowroot-agent.version}</version>
+            </dependency>
+            <!-- END: Glowroot dependency -->
 
             <!-- Blockhound dependency -->
             <dependency>
