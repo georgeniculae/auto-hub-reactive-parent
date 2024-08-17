@@ -44,6 +44,8 @@
 
         <swagger-request-validator.version>2.41.0</swagger-request-validator.version>
 
+        <caffeine.version>3.1.8</caffeine.version>
+
         <blockhound.version>1.0.9.RELEASE</blockhound.version>
     </properties>
 
@@ -148,6 +150,14 @@
                 <version>${swagger-request-validator.version}</version>
             </dependency>
             <!-- END: Atlassian Request Validator dependency -->
+
+            <!-- Caffeine dependency -->
+            <dependency>
+                <groupId>com.github.ben-manes.caffeine</groupId>
+                <artifactId>caffeine</artifactId>
+                <version>${caffeine.version}</version>
+            </dependency>
+            <!-- END: Caffeine dependency -->
 
             <!-- Blockhound dependency -->
             <dependency>
