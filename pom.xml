@@ -12,14 +12,14 @@
 
     <groupId>com.swiftwheelshub</groupId>
     <artifactId>swift-wheels-hub-reactive-parent</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Swift Wheels Hub Reactive Parent</name>
     <description>Parent for Swift Wheels Hub Reactive Microservices</description>
 
     <properties>
-        <java.version>22</java.version>
+        <java.version>23</java.version>
         <release>${java.version}</release>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -29,7 +29,7 @@
         <spring-cloud-dependencies.version>2023.0.3</spring-cloud-dependencies.version>
         <spring-ai.version>1.0.0-M2</spring-ai.version>
 
-        <mapstruct.version>1.6.0</mapstruct.version>
+        <mapstruct.version>1.6.2</mapstruct.version>
 
         <poi.version>5.3.0</poi.version>
 
@@ -42,7 +42,7 @@
 
         <mongock.version>5.4.4</mongock.version>
 
-        <swagger-request-validator.version>2.41.0</swagger-request-validator.version>
+        <swagger-request-validator.version>2.42.0</swagger-request-validator.version>
 
         <caffeine.version>3.1.8</caffeine.version>
 
