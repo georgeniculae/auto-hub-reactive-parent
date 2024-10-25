@@ -27,7 +27,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <spring-cloud-dependencies.version>2023.0.3</spring-cloud-dependencies.version>
-        <spring-ai.version>1.0.0-M2</spring-ai.version>
+        <spring-ai.version>1.0.0-M3</spring-ai.version>
 
         <mapstruct.version>1.6.2</mapstruct.version>
 
@@ -40,13 +40,13 @@
 
         <springdoc-openapi.version>2.6.0</springdoc-openapi.version>
 
-        <mongock.version>5.4.4</mongock.version>
+        <mongock.version>5.5.0</mongock.version>
 
-        <swagger-request-validator.version>2.42.0</swagger-request-validator.version>
+        <swagger-request-validator.version>2.43.0</swagger-request-validator.version>
 
         <caffeine.version>3.1.8</caffeine.version>
 
-        <blockhound.version>1.0.9.RELEASE</blockhound.version>
+        <blockhound.version>1.0.10.RELEASE</blockhound.version>
     </properties>
 
     <dependencyManagement>
