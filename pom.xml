@@ -12,7 +12,7 @@
 
     <groupId>com.swiftwheelshub</groupId>
     <artifactId>swift-wheels-hub-reactive-parent</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Swift Wheels Hub Reactive Parent</name>
@@ -33,7 +33,7 @@
 
         <poi.version>5.3.0</poi.version>
 
-        <keycloak-client.version>25.0.5</keycloak-client.version>
+        <keycloak-client.version>26.0.2</keycloak-client.version>
         <resteasy-client.version>6.2.10.Final</resteasy-client.version>
 
         <mustache.version>0.9.14</mustache.version>
