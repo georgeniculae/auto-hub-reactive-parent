@@ -12,7 +12,7 @@
 
     <groupId>com.swiftwheelshub</groupId>
     <artifactId>swift-wheels-hub-reactive-parent</artifactId>
-    <version>0.0.8-SNAPSHOT</version>
+    <version>0.0.9-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Swift Wheels Hub Reactive Parent</name>
@@ -26,19 +26,19 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <spring-cloud-dependencies.version>2023.0.3</spring-cloud-dependencies.version>
-        <spring-ai.version>1.0.0-M3</spring-ai.version>
+        <spring-cloud-dependencies.version>2023.0.4</spring-cloud-dependencies.version>
+        <spring-ai.version>1.0.0-M4</spring-ai.version>
 
-        <mapstruct.version>1.6.2</mapstruct.version>
+        <mapstruct.version>1.6.3</mapstruct.version>
 
         <poi.version>5.3.0</poi.version>
 
-        <keycloak-client.version>26.0.1</keycloak-client.version>
-        <resteasy-client.version>6.2.10.Final</resteasy-client.version>
+        <keycloak-client.version>26.0.3</keycloak-client.version>
+        <resteasy-client.version>6.2.11.Final</resteasy-client.version>
 
         <mustache.version>0.9.14</mustache.version>
 
-        <springdoc-openapi.version>2.6.0</springdoc-openapi.version>
+        <springdoc-openapi.version>2.7.0</springdoc-openapi.version>
 
         <mongock.version>5.5.0</mongock.version>
 
