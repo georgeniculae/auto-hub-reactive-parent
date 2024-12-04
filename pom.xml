@@ -12,7 +12,7 @@
 
     <groupId>com.swiftwheelshub</groupId>
     <artifactId>swift-wheels-hub-reactive-parent</artifactId>
-    <version>0.0.9-SNAPSHOT</version>
+    <version>0.0.10-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Swift Wheels Hub Reactive Parent</name>
@@ -26,7 +26,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <spring-cloud-dependencies.version>2023.0.4</spring-cloud-dependencies.version>
+        <spring-cloud-dependencies.version>2024.0.0</spring-cloud-dependencies.version>
         <spring-ai.version>1.0.0-M4</spring-ai.version>
 
         <mapstruct.version>1.6.3</mapstruct.version>
