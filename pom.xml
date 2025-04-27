@@ -12,7 +12,7 @@
 
     <groupId>com.swiftwheelshub</groupId>
     <artifactId>swift-wheels-hub-reactive-parent</artifactId>
-    <version>0.0.18-SNAPSHOT</version>
+    <version>0.0.19-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Swift Wheels Hub Reactive Parent</name>
@@ -31,10 +31,12 @@
 
         <mapstruct.version>1.6.3</mapstruct.version>
 
-        <poi.version>5.4.1</poi.version>
-
         <keycloak-client.version>26.0.5</keycloak-client.version>
         <resteasy-client.version>6.2.12.Final</resteasy-client.version>
+
+        <shedlock-spring.version>6.4.0</shedlock-spring.version>
+
+        <poi.version>5.4.1</poi.version>
 
         <mustache.version>0.9.14</mustache.version>
 
@@ -112,6 +114,20 @@
                 <version>${poi.version}</version>
             </dependency>
             <!-- END: Apache POI dependencies -->
+
+            <!-- ShedLock dependency -->
+            <dependency>
+                <groupId>net.javacrumbs.shedlock</groupId>
+                <artifactId>shedlock-spring</artifactId>
+                <version>${shedlock-spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.javacrumbs.shedlock</groupId>
+                <artifactId>shedlock-provider-mongo-reactivestreams</artifactId>
+                <version>${shedlock-spring.version}</version>
+            </dependency>
+            <!-- END: ShedLock dependencies -->
 
             <!-- Swagger documentation dependency -->
             <dependency>
