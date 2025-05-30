@@ -12,7 +12,7 @@
 
     <groupId>com.autohub</groupId>
     <artifactId>auto-hub-reactive-parent</artifactId>
-    <version>0.0.21-SNAPSHOT</version>
+    <version>0.0.22-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Auto Hub Reactive Parent</name>
@@ -26,7 +26,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <spring-cloud-dependencies.version>2024.0.1</spring-cloud-dependencies.version>
+        <spring-cloud-dependencies.version>2025.0.0</spring-cloud-dependencies.version>
         <spring-ai.version>1.0.0</spring-ai.version>
 
         <mapstruct.version>1.6.3</mapstruct.version>
@@ -48,7 +48,7 @@
 
         <caffeine.version>3.2.0</caffeine.version>
 
-        <blockhound.version>1.0.11.RELEASE</blockhound.version>
+        <blockhound.version>1.0.13.RELEASE</blockhound.version>
     </properties>
 
     <dependencyManagement>
