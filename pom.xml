@@ -12,7 +12,7 @@
 
     <groupId>com.autohub</groupId>
     <artifactId>auto-hub-reactive-parent</artifactId>
-    <version>0.0.22-SNAPSHOT</version>
+    <version>0.0.23-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Auto Hub Reactive Parent</name>
@@ -34,7 +34,7 @@
         <keycloak-client.version>26.0.5</keycloak-client.version>
         <resteasy-client.version>6.2.12.Final</resteasy-client.version>
 
-        <shedlock-spring.version>6.6.1</shedlock-spring.version>
+        <shedlock-spring.version>6.8.0</shedlock-spring.version>
 
         <poi.version>5.4.1</poi.version>
 
@@ -162,7 +162,7 @@
             <!-- Atlassian Request Validator dependency -->
             <dependency>
                 <groupId>com.atlassian.oai</groupId>
-                <artifactId>swagger-request-validator-spring-web-client</artifactId>
+                <artifactId>swagger-request-validator-core</artifactId>
                 <version>${swagger-request-validator.version}</version>
             </dependency>
             <!-- END: Atlassian Request Validator dependency -->
