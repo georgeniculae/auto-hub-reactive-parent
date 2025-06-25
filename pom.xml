@@ -6,13 +6,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.1</version>
+        <version>3.5.3</version>
         <relativePath/>
     </parent>
 
     <groupId>com.autohub</groupId>
     <artifactId>auto-hub-reactive-parent</artifactId>
-    <version>0.0.24-SNAPSHOT</version>
+    <version>0.0.25-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Auto Hub Reactive Parent</name>
