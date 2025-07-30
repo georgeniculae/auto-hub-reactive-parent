@@ -12,7 +12,7 @@
 
     <groupId>com.autohub</groupId>
     <artifactId>auto-hub-reactive-parent</artifactId>
-    <version>0.0.26-SNAPSHOT</version>
+    <version>0.0.27-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Auto Hub Reactive Parent</name>
@@ -44,7 +44,7 @@
 
         <mongock.version>5.5.1</mongock.version>
 
-        <swagger-request-validator.version>2.45.0</swagger-request-validator.version>
+        <swagger-request-validator.version>2.44.9</swagger-request-validator.version>
 
         <caffeine.version>3.2.2</caffeine.version>
 
