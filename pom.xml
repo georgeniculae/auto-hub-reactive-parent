@@ -6,20 +6,20 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-      <version>3.5.5</version>
+      <version>3.5.6</version>
         <relativePath/>
     </parent>
 
     <groupId>com.autohub</groupId>
     <artifactId>auto-hub-reactive-parent</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>0.2.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Auto Hub Reactive Parent</name>
     <description>Parent for Auto Hub Reactive Microservices</description>
 
     <properties>
-        <java.version>24</java.version>
+        <java.version>25</java.version>
         <release>${java.version}</release>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
@@ -27,7 +27,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <spring-cloud-dependencies.version>2025.0.0</spring-cloud-dependencies.version>
-        <spring-ai.version>1.0.1</spring-ai.version>
+        <spring-ai.version>1.0.2</spring-ai.version>
 
         <mapstruct.version>1.6.3</mapstruct.version>
 
