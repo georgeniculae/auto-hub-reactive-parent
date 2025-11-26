@@ -6,13 +6,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-      <version>3.5.6</version>
+      <version>4.0.0</version>
         <relativePath/>
     </parent>
 
     <groupId>com.autohub</groupId>
     <artifactId>auto-hub-reactive-parent</artifactId>
-    <version>0.2.0-SNAPSHOT</version>
+    <version>0.3.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Auto Hub Reactive Parent</name>
@@ -26,29 +26,29 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <spring-cloud-dependencies.version>2025.0.0</spring-cloud-dependencies.version>
-        <spring-ai.version>1.0.2</spring-ai.version>
+        <spring-cloud-dependencies.version>2025.1.0</spring-cloud-dependencies.version>
+        <spring-ai.version>1.1.0</spring-ai.version>
 
         <mapstruct.version>1.6.3</mapstruct.version>
 
-        <keycloak-client.version>26.0.6</keycloak-client.version>
-        <resteasy-client.version>6.2.12.Final</resteasy-client.version>
+        <keycloak-client.version>26.4.5</keycloak-client.version>
+        <resteasy-client.version>6.2.14.Final</resteasy-client.version>
 
-        <shedlock-spring.version>6.10.0</shedlock-spring.version>
+        <shedlock-spring.version>7.2.0</shedlock-spring.version>
 
-        <poi.version>5.4.1</poi.version>
+        <poi.version>5.5.0</poi.version>
 
         <mustache.version>0.9.14</mustache.version>
 
-        <springdoc-openapi-starter-webflux-ui.version>2.8.13</springdoc-openapi-starter-webflux-ui.version>
+        <springdoc-openapi-starter-webflux-ui.version>3.0.0</springdoc-openapi-starter-webflux-ui.version>
 
         <mongock.version>5.5.1</mongock.version>
 
-        <swagger-request-validator.version>2.45.1</swagger-request-validator.version>
+        <swagger-request-validator.version>2.46.0</swagger-request-validator.version>
 
-        <caffeine.version>3.2.2</caffeine.version>
+        <caffeine.version>3.2.3</caffeine.version>
 
-        <blockhound.version>1.0.14.RELEASE</blockhound.version>
+        <blockhound.version>1.0.15.RELEASE</blockhound.version>
     </properties>
 
     <dependencyManagement>
