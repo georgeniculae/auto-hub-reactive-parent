@@ -31,7 +31,7 @@
 
         <mapstruct.version>1.6.3</mapstruct.version>
 
-        <keycloak-client.version>26.4.5</keycloak-client.version>
+        <keycloak-client.version>26.0.7</keycloak-client.version>
         <resteasy-client.version>6.2.14.Final</resteasy-client.version>
 
         <shedlock-spring.version>7.2.0</shedlock-spring.version>
