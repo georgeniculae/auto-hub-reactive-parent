@@ -12,7 +12,7 @@
 
     <groupId>com.autohub</groupId>
     <artifactId>auto-hub-reactive-parent</artifactId>
-    <version>0.3.0-SNAPSHOT</version>
+    <version>0.3.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Auto Hub Reactive Parent</name>
@@ -27,21 +27,20 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <spring-cloud-dependencies.version>2025.1.0</spring-cloud-dependencies.version>
-        <spring-cloud-consul-dependencies.version>5.0.0</spring-cloud-consul-dependencies.version>
-        <spring-ai.version>1.1.0</spring-ai.version>
+        <spring-ai.version>1.1.2</spring-ai.version>
 
-        <testcontainers.version>2.0.2</testcontainers.version>
+        <testcontainers.version>2.0.3</testcontainers.version>
 
         <reactor-kafka.version>1.3.25</reactor-kafka.version>
 
         <mapstruct.version>1.6.3</mapstruct.version>
 
         <keycloak-client.version>26.0.7</keycloak-client.version>
-        <resteasy-client.version>6.2.14.Final</resteasy-client.version>
+        <resteasy-client.version>7.0.1.Final</resteasy-client.version>
 
-        <shedlock-spring.version>7.2.0</shedlock-spring.version>
+        <shedlock-spring.version>7.4.0</shedlock-spring.version>
 
-        <poi.version>5.5.0</poi.version>
+        <poi.version>5.5.1</poi.version>
 
         <mustache.version>0.9.14</mustache.version>
 
@@ -67,15 +66,6 @@
                 <scope>import</scope>
             </dependency>
             <!-- END: Spring Cloud dependency -->
-
-            <!-- Spring Cloud Consul dependency -->
-            <dependency>
-               <groupId>org.springframework.cloud</groupId>
-               <artifactId>spring-cloud-consul-dependencies</artifactId>
-               <version>${spring-cloud-consul-dependencies.version}</version>
-               <type>pom</type>
-            </dependency>
-            <!-- END: Spring Cloud Consul dependency -->
 
             <!-- Spring AI -->
             <dependency>
