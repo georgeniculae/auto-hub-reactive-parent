@@ -26,7 +26,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <spring-cloud-dependencies.version>2025.1.0</spring-cloud-dependencies.version>
+        <spring-cloud-dependencies.version>2025.1.1</spring-cloud-dependencies.version>
         <spring-ai.version>1.1.2</spring-ai.version>
 
         <testcontainers.version>2.0.3</testcontainers.version>
@@ -35,16 +35,16 @@
 
         <mapstruct.version>1.6.3</mapstruct.version>
 
-        <keycloak-client.version>26.0.7</keycloak-client.version>
+        <keycloak-client.version>26.0.8</keycloak-client.version>
         <resteasy-client.version>7.0.1.Final</resteasy-client.version>
 
-        <shedlock-spring.version>7.4.0</shedlock-spring.version>
+        <shedlock-spring.version>7.6.0</shedlock-spring.version>
 
         <poi.version>5.5.1</poi.version>
 
         <mustache.version>0.9.14</mustache.version>
 
-        <springdoc-openapi-starter-webflux-ui.version>3.0.0</springdoc-openapi-starter-webflux-ui.version>
+        <springdoc-openapi-starter-webflux-ui.version>3.0.1</springdoc-openapi-starter-webflux-ui.version>
 
         <mongock.version>5.5.1</mongock.version>
 
@@ -52,7 +52,7 @@
 
         <caffeine.version>3.2.3</caffeine.version>
 
-        <blockhound.version>1.0.15.RELEASE</blockhound.version>
+        <blockhound.version>1.0.16.RELEASE</blockhound.version>
     </properties>
 
     <dependencyManagement>
