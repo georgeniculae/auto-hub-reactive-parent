@@ -12,7 +12,7 @@
 
     <groupId>com.autohub</groupId>
     <artifactId>auto-hub-reactive-parent</artifactId>
-    <version>0.3.5-SNAPSHOT</version>
+    <version>0.3.6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Auto Hub Reactive Parent</name>
@@ -27,7 +27,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <spring-cloud-dependencies.version>2025.1.1</spring-cloud-dependencies.version>
-        <spring-ai.version>1.1.2</spring-ai.version>
+        <spring-ai.version>2.0.0-M2</spring-ai.version>
 
         <testcontainers.version>2.0.3</testcontainers.version>
 
@@ -290,6 +290,12 @@
         <repository>
             <id>github</id>
             <url>https://maven.pkg.github.com/georgeniculae/*</url>
+        </repository>
+
+        <repository>
+            <id>repository.spring.milestone</id>
+            <name>Spring Milestone Repository</name>
+            <url>https://repo.spring.io/milestone</url>
         </repository>
     </repositories>
 
